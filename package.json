@@ -4,14 +4,14 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./index.css -o ./tailwind.css -w"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tscalfaro/websiteV3.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Antonio Scalfaro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tscalfaro/websiteV3/issues"
