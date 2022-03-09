@@ -528,6 +528,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(20 20 20 / 0));
 }
 
+.from-black {
+  --tw-gradient-from: #0C0C0C;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(12 12 12 / 0));
+}
+
+.via-body {
+  --tw-gradient-stops: var(--tw-gradient-from), #141414, var(--tw-gradient-to, rgb(20 20 20 / 0));
+}
+
 .to-black {
   --tw-gradient-to: #0C0C0C;
 }
