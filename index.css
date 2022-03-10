@@ -39,6 +39,7 @@ scroll-margin-top: 100px;
 
 
 .nav-dot:hover span {
+  transition: 1s opacity;
   opacity: 1;
 }
 
