@@ -37,10 +37,17 @@ scroll-margin-top: 100px;
   transition: background 200ms, border-color 200ms;
 }
 
-
 .nav-dot:hover span {
   transition: 1s opacity;
   opacity: 1;
+}
+
+.button_project {
+  transition: border-color 200ms;
+}
+
+.button_project::after {
+  transition: 1s secondary;
 }
 
 @layer base {
