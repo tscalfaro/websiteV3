@@ -34,6 +34,7 @@ scroll-margin-top: 100px;
 }
 
 .nav-dot {
+
   transition: background 200ms, border-color 200ms;
 }
 
@@ -42,15 +43,24 @@ scroll-margin-top: 100px;
   opacity: 1;
 }
 
-.button_project {
-  transition: border-color 200ms;
+button {
+  transition: border 750ms,  border-color 200ms;
+}
+button:hover{
+  transition: 1s  border;
+  border: 4px;
+  border-color: '#037E7E'
+}
+@layer components {
+  .selected-circle {
+    border-color: theme('colors.secondary');
+    background-color: theme('colors.body')
+  }
 }
 
-.button_project::after {
-  transition: 1s secondary;
-}
 
-@layer base {
+
+@layer utilities {
   .secondary-title {
     @apply text-3xl font-bold;
   }
@@ -65,10 +75,12 @@ scroll-margin-top: 100px;
   }
 
   .selected-circle {
-    @apply border-secondary bg-accent;
+    @apply border-secondary bg-body;
   }
 
   .badge {
     @apply px-4 py-2 text-sm rounded bg-badge;
   }
+
+
 }

@@ -16,10 +16,10 @@
     
     <header class="py-6">
         <div class="container flex justify-between  mx-auto px-10 md:px-12 lg:px-10 w-full">
-            <div class="text-secondary font-bold ">&lt;devTony&gt; </div>
+            <div class="text-secondary font-bold "> <a href="#home">&lt;devTony&gt; </a> </div>
             <div class="hidden  md:flex items-center space-x-12 text-secondary text-sm">
                 
-                <a href="#projects" class="text-selected-text">Projects</a>
+                <a href="#work" class="text-selected-text">Projects</a>
                 <a href="#about-me">About</a>
                 <a href="#journey">Journey</a>
                 <a href="#contact-me">Contact</a>
@@ -31,20 +31,20 @@
         </div>
     </header>
 
-    <div class="container mt-10 text-primary flex justify-between  space-x-3 mx-auto px-10 md:px-12 lg:px-10 w-full">
+    <div class="container mt-10 text-primary flex justify-between  space-x-3 mx-auto px-10 md:px-12 lg:px-10 w-full" >
         
-        <div class="flex flex-wrap justify-center md:flex-nowrap">
+        <div class="flex flex-wrap justify-center md:flex-nowrap" id="home">
             
             <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
                 
                 <div class="absolute transform -translate-x-1/2 space-y-6 mt-36">
-                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body" >
+                    <a href="#" class="nav-dot selected-circle  block w-7 h-7 rounded-full border-4 border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0 ">
                             Home
                         </span>
                     </a>
 
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
+                    <a href="#work" class="nav-dot  block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body " >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
                             Projects
                         </span>
@@ -78,7 +78,7 @@
                     <h5 class="font-bold block text-lg text-primary md:text-xl lg:text-3xl xl:text-4xl text-center justify-center">Software Engineer. <br>Veteran. <br>Life Long Learner.</h5>
                     <br>
                     <div class="w-full flex justify-center">
-                        <button class="button_project bg-accent rounded-lg font-bold text-primary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                        <button class="button_project border-4 bg-accent rounded-lg font-bold text-primary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
                            My Projects
                         </button>
                     </div>
@@ -88,10 +88,28 @@
                 <div class="flex flex-wrap md: px-2 lg:px-2 max-h-md">
                     <img src="./img/cartoonv2.png" alt="my cartoon image" >
                 </div>
-            
         </div>
         
-        
+    </div>
+
+      <!--Projects-->
+
+    <div class="container mt-64 ml-10 flex justify-between items-center mx-auto px-8 md:px-14">
+        <section class="w-full">
+            <h1 id="work" class=" text-secondary text-4xl">My Projects</h1>
+            <p>I have been lucky enough to work with some great people and to have contributed to multiple projects, though a few were solo projects.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+
+            <img src="./img/STAPLER.png" alt="stapler logo" >
+            <img src="./img/TAGD-logo.png" alt="TAGD-logo" class="" >
+            <img src="./img/tic-tac-toe-logo.jpg" alt="stapler logo" >
+            <img src="./img/STAPLER.png" alt="stapler logo" >
+            <img src="./img/STAPLER.png" alt="stapler logo" >
+
+            </div>
+
+        </section>
     </div>
 
     <script src="main.js"></script>
