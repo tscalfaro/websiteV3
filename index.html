@@ -38,7 +38,7 @@
             <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
                 
                 <div class="absolute transform -translate-x-1/2 space-y-6 mt-36">
-                    <a href="#" class="nav-dot selected-circle  block w-7 h-7 rounded-full border-4 border-nav bg-body" >
+                    <a href="#" class="nav-dot selected-circle  block w-7 h-7 rounded-full border-accent border-4 border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0 ">
                             Home
                         </span>
@@ -50,19 +50,19 @@
                         </span>
                     </a>
 
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
+                    <a href="#about" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
                             About
                         </span>
                     </a>
 
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
+                    <a href="#journey" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
                             Journey
                         </span>
                     </a>
 
-                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4  border-accent border-nav bg-body" >
+                    <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4  border-accent border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
                             Contact
                         </span>
@@ -78,7 +78,7 @@
                     <h5 class="font-bold block text-lg text-primary md:text-xl lg:text-3xl xl:text-4xl text-center justify-center">Software Engineer. <br>Veteran. <br>Life Long Learner.</h5>
                     <br>
                     <div class="w-full flex justify-center">
-                        <button class="button_project border-4 bg-accent rounded-lg font-bold text-primary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                        <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
                            My Projects
                         </button>
                     </div>
@@ -94,24 +94,79 @@
 
       <!--Projects-->
 
-    <div class="container mt-64 ml-10 flex justify-between items-center mx-auto px-8 md:px-14">
-        <section class="w-full">
-            <h1 id="work" class=" text-secondary text-4xl">My Projects</h1>
-            <p>I have been lucky enough to work with some great people and to have contributed to multiple projects, though a few were solo projects.</p>
+    <div class="container mt-64 ml-10 flex justify-between items-center align-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full text-center ml-10">
+            <h2 id="work" class=" text-primary text-4xl font-bold ">My Projects</h2>
+            <p class="section-paragraph">I have been lucky enough to work with some great people and to have contributed to multiple projects. These experiences were all unique in their own right and I invite you to take a look at the code base for the projects.</p>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="grid grid-cols-1 align-center lg:grid-cols-3 gap-6 mt-6">
 
-            <img src="./img/STAPLER.png" alt="stapler logo" >
-            <img src="./img/TAGD-logo.png" alt="TAGD-logo" class="" >
-            <img src="./img/tic-tac-toe-logo.jpg" alt="stapler logo" >
-            <img src="./img/STAPLER.png" alt="stapler logo" >
-            <img src="./img/STAPLER.png" alt="stapler logo" >
+            <a href="https://github.com/stapler-graceshopper/stapler" target="_blank" rel="noreferrer noopener"><img src="./img/STAPLER.png" alt="stapler logo" ></a>
+            <a href="https://github.com/TAGD-App/TAGD-FrontEnd" target="_blank" rel="noreferrer noopener"><img src="./img/TAGD-logo.png" alt="TAGD-logo" class="object-scale-down" ></a>
+            <a href="https://github.com/tscalfaro/AI-Tic-Tac-Toe" target="_blank" rel="noreferrer noopener"><img src="./img/tic-tac-toe-logo.jpg" alt="ai tic tac toe" ></a>
 
             </div>
 
+            <div class="w-full flex justify-center mt-6">
+                <button class="button_project border-4 bg-black rounded-lg font-bold text-accent px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                   About Me
+                </button>
+            </div>
         </section>
     </div>
 
+
+    <!--About Me-->
+
+    <div class="container mt-64 ml-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="ml-10">
+            <h2 class="text-primary text-4xl my-36 text-center" id="about">Who am I?<br>What's my story?</h2>
+            <p class="section-paragraph text-lg">
+                I am a recent graduate of FullStack Academy and a professional Software Engineer. After my military enlistment, I attended Temple University. 
+            </p>
+            <p class="section-paragraph text-lg">
+                Though my time there was put on pause to attend FullStack, I will be back to finish the remaining year part-time. This wild journey has given me so many different tools to lean on in a variety of situations. 
+            </p>
+               
+            
+            <p class="section-paragraph text-lg"> I have strong experience in javascript, react, and express. I also have experience in relational database management and creation using PostgresQL. I am looking for a work environment that keeps me interested in learning more every day, pushes the boundaries of my ability, and elevates me to new heights as much as I will help them achieve new heights.</p>
+
+            <div class="w-full flex justify-center mt-6">
+                <button class="button_project border-4 bg-black rounded-lg font-bold text-accent px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                   My Journey
+                </button>
+            </div>
+        </section>
+
+        
+    </div>
+
+    <div class="container  mt-64 ml-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="ml-10">
+            <h2 class="text-primary text-4xl my-36" id="journey">How I got here...</h2>
+
+            <div class="w-full flex mt-6">
+                <div class=" ml-10 text-center text-primary justify-center">
+                    <p>2021 - Graduated from FullStack Academy</p>
+                    <br>
+                    <p>2017 - Honorably Discharged from the United States Marine Corps</p>
+                    <br>
+                    <p>2013 - Graduated High School</p>
+                </div>
+                <img src="./img/location-path.svg" alt="path" class=" h-1/2 ">
+                <div class="inline-block mr-10 text-center text-primary">
+                    <p class="block">2021 - Graduated from FullStack Academy</p>
+                    <br>
+                    <p class="block">2017 - Honorably Discharged from the United States Marine Corps</p>
+                    <br>
+                    <p class="block">2013 - Graduated High School</p>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+        
     <script src="main.js"></script>
 </body>
 </html>

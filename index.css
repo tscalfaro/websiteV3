@@ -43,10 +43,10 @@ scroll-margin-top: 100px;
   opacity: 1;
 }
 
-button {
+.button_project {
   transition: border 750ms,  border-color 200ms;
 }
-button:hover{
+.button_project:hover{
   transition: 1s  border;
   border: 4px;
   border-color: '#037E7E'
@@ -62,16 +62,16 @@ button:hover{
 
 @layer utilities {
   .secondary-title {
-    @apply text-3xl font-bold;
+    @apply text-primary text-3xl font-bold;
   }
   
   .secondary-title::before {
     content: "";
-    @apply block w-12 h-2 bg-theme rounded-full mb-1;
+    @apply block w-12 h-2  rounded-full mb-1;
   }
   
   .section-paragraph {
-    @apply text-secondary my-6 w-full max-w-3xl;
+    @apply text-primary my-6 w-full  text-center;
   }
 
   .selected-circle {

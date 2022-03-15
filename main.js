@@ -1,5 +1,5 @@
 function updateList() {
-    const titles = [...document.querySelector('h1, h2')].sort((a, b) => {
+    const titles = [...document.querySelectorAll('h1, h2')].sort((a, b) => {
         return Math.abs(a.getBoundingClientRect().top) - Math.abs(b.getBoundingClientRect().top)
     })
 
@@ -11,4 +11,5 @@ function updateList() {
 updateList();
 window.addEventListener('scroll', () => {
     updateList();
+    console.log("updating")
 })
