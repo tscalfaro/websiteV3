@@ -10,6 +10,9 @@ html, body {
 .left-50 {
   left: 50%;
 }
+.left-100 {
+  left: 100%;
+}
 .right-50 {
   right: 50%;
 }
@@ -34,13 +37,26 @@ scroll-margin-top: 100px;
 }
 
 .nav-dot {
-
-  transition: background 200ms, border-color 200ms;
+  transition: background 200ms, border-color 200ms ;
+ 
 }
 
 .nav-dot:hover span {
   transition: 1s opacity;
   opacity: 1;
+  
+}
+
+.path-dot {
+  transition: width 200ms, height 200ms, translate 200px;
+  translate: 100px;
+}
+
+.path-dot:hover  span {
+
+  transition: 1s opacity;
+  opacity: 1;
+  translate: 100px;
 }
 
 .button_project {

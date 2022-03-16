@@ -530,6 +530,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 9rem;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -552,6 +557,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mr-10 {
@@ -582,30 +591,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.75rem;
 }
 
-.h-96 {
-  height: 24rem;
-}
-
-.h-fit {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-1\/3 {
-  height: 33.333333%;
-}
-
-.h-4\/6 {
-  height: 66.666667%;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-5\/6 {
-  height: 83.333333%;
+.h-16 {
+  height: 4rem;
 }
 
 .w-full {
@@ -616,16 +603,25 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.75rem;
 }
 
-.w-48 {
-  width: 12rem;
+.w-20 {
+  width: 5rem;
 }
 
 .max-w-xl {
   max-width: 36rem;
 }
 
+.origin-right {
+  transform-origin: right;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.-translate-x-10 {
+  --tw-translate-x: -2.5rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -635,10 +631,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-wrap {
@@ -679,12 +671,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
 }
 
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -704,6 +690,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .border-accent {
   --tw-border-opacity: 1;
   border-color: rgb(192 39 76 / var(--tw-border-opacity));
+}
+
+.border-selected-text {
+  --tw-border-opacity: 1;
+  border-color: rgb(147 97 18 / var(--tw-border-opacity));
 }
 
 .bg-body {
@@ -731,16 +722,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .to-black {
   --tw-gradient-to: #0C0C0C;
-}
-
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
 }
 
 .object-scale-down {
@@ -786,6 +767,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pb-12 {
@@ -867,6 +858,10 @@ html, body {
   left: 50%;
 }
 
+.left-100 {
+  left: 100%;
+}
+
 .right-50 {
   right: 50%;
 }
@@ -892,12 +887,23 @@ html, body {
 }
 
 .nav-dot {
-  transition: background 200ms, border-color 200ms;
+  transition: background 200ms, border-color 200ms ;
 }
 
 .nav-dot:hover span {
   transition: 1s opacity;
   opacity: 1;
+}
+
+.path-dot {
+  transition: width 200ms, height 200ms, translate 200px;
+  translate: 100px;
+}
+
+.path-dot:hover  span {
+  transition: 1s opacity;
+  opacity: 1;
+  translate: 100px;
 }
 
 .button_project {
