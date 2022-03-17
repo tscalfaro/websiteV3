@@ -923,9 +923,20 @@ html, body {
   border-color: '#037E7E'
 }
 
+.after\:text-selected-text::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(147 97 18 / var(--tw-text-opacity));
+}
+
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(192 39 76 / var(--tw-text-opacity));
+}
+
+.active\:text-selected-text:active {
+  --tw-text-opacity: 1;
+  color: rgb(147 97 18 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
