@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=WS, initial-scale=1.0">
     <title>Antonio Scalfaro Software Developer Warminster Pennsylvania</title>
     <link rel="stylesheet" href="tailwind.css" >
-    <link rel="icon" href="/img/cartoonv2.png">
+    <link rel="icon" href="/img/favicon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
                 <a href="#about" class="active:text-selected-text">About</a>
             <!--    <a href="#journey" class="active:text-selected-text">Journey</a> -->
                 <a href="#contact" class="active:text-selected-text">Contact</a>
-                <a href="#résumé" class=""> <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 active:text-selected-text">Résumé</button>
+                <a href="#résumé" class=""> <button class="button_project border-4 bg-black rounded-lg font-bold text-accent animate-bounce px-4 py-2 active:text-selected-text">Résumé</button>
                     </a>
             </div>
             <div class="mx-4 md:hidden">
@@ -56,12 +56,13 @@
                             About
                         </span>
                     </a>
-
+                    <!--
                     <a href="#journey" class="nav-dot block w-7 h-7 rounded-full border-4 border-accent border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
                             Journey
                         </span>
                     </a>
+                    -->
 
                     <a href="#contact" class="nav-dot block w-7 h-7 rounded-full border-4  border-accent border-nav bg-body" >
                         <span class="bg-body px-2 py-1 rounded-md ml-10 opacity-0">
@@ -80,7 +81,7 @@
                     <br>
                     <div class="w-full flex justify-center">
                         <a href="#work">
-                        <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4">
+                        <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 animate-pulse sm:text-md md:text-lg lg:text-xl px-8 py-4">
                            My Projects
                         </button> </a>
                     </div>
@@ -102,15 +103,15 @@
             <p class="section-paragraph">I have been lucky enough to work with some great people and to have contributed to multiple projects. These experiences were all unique in their own right and I invite you to take a look at the code base for the projects.</p>
 
             <div class="grid grid-cols-1 align-center lg:grid-cols-3 gap-6 mt-6">
-                <div>
-                 <a href="https://github.com/stapler-graceshopper/stapler" target="_blank" rel="noreferrer noopener"><img src="./img/STAPLER.png" alt="stapler logo" ></a> 
+                <div class="transition duration-300 delay-150 hover:delay-0 ">
+                 <a href="https://github.com/stapler-graceshopper/stapler" target="_blank" rel="noreferrer noopener"><img src="./img/STAPLER.png" alt="stapler logo" class="hover:opacity-1/2"></a> 
                  <h5 class="section-paragraph">Stapler: This project is a complete e-commerce site that was build by my team and I while in FullStack Academy. We focused on building a secure and stable backend while maintaining a barebones front end. The tech stack is as follows: React, Redux, Express, Sequelize, PostgresQL, Node.js</h5>
                 </div>
-                <div>
+                <div class="px-4">
                    <a href="https://github.com/TAGD-App/TAGD-FrontEnd" target="_blank" rel="noreferrer noopener"><img src="./img/TAGD-logo.png" alt="TAGD-logo" class="object-scale-down" ></a>
                    <h5 class="section-paragraph">TAGD: This project is an AR application which the user stores 'Tags' around their home to better show guests around. This was a group project and was all of our first AR application so it was challenging but rewarding. The tech stack used is as follows: React Native, Viro Media, Redux, Node.js, Express, Sequelize, PostgresQL, Heroku</h5>
                 </div>
-                <div>
+                <div class="project-div">
                    <a href="https://github.com/tscalfaro/AI-Tic-Tac-Toe" target="_blank" rel="noreferrer noopener"><img src="./img/tic-tac-toe-logo.jpg" alt="ai tic tac toe" ></a>
                    <h5 class="section-paragraph">AI Tic Tac Toe: A very fun and rewarding game to build out. Unfortunately, there will be no winning for the human player but you're more than welcome to try!</h5>
                 </div>
@@ -119,7 +120,7 @@
 
             <div class="w-full flex justify-center mt-6">
                 <a href="#about">
-                <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 animate-bounce sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
                    About Me
                 </button> </a>
             </div>
@@ -144,7 +145,7 @@
 
             <div class="w-full flex justify-center mt-6">
                 <a href="#contact">
-                <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+                <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 animate-bounce sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
                    Contact Me
                 </button> </a>
             </div>
@@ -160,11 +161,11 @@
             <h2 class="text-primary text-4xl md:text-6xl lg:text-8xl mb-16" id="contact">Reach out!</h2>
             <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-32 mb-16 hover:text-accent">Email : tscalfaro7@gmail.com </h5>
             <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-10 mb-16 hover:text-accent">Mobile: (215) - 460 - 4680 </h5>
-            <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-10 mb-16 hover:text-accent">Github:  https://github.com/tscalfaro</h5>
-            <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-10 mb-16 hover:text-accent">LinkedIn:  https://www.linkedin.com/in/antonioscalfaro/</h5>
+           <a href="https://github.com/tscalfaro" target="_blank" rel="noreferrer noopener" > <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-10 mb-16 hover:text-accent">Github:  https://github.com/tscalfaro</h5> </a>
+           <a href="https://www.linkedin.com/in/antonioscalfaro/" target="_blank" rel="noreferrer noopener"> <h5 class="text-primary text-lg md:text-3xl lg:text-4xl mt-10 mb-16 hover:text-accent">LinkedIn:  https://www.linkedin.com/in/antonioscalfaro/</h5> </a>
             
             <div class="w-full flex justify-center mt-6">
-               <a href="#home"> <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
+               <a href="#home"> <button class="button_project border-4 bg-black rounded-lg font-bold text-secondary px-4 py-2 animate-bounce sm:text-md md:text-lg lg:text-xl px-8 py-4 ">
                    Top 
                 </button> </a>
             </div>
