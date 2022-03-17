@@ -833,6 +833,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -984,6 +989,17 @@ html, body {
   border-color: '#037E7E'
 }
 
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover {
+  -webkit-animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+          animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(192 39 76 / var(--tw-text-opacity));
@@ -1026,6 +1042,11 @@ html, body {
   .md\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+  }
+
+  .md\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .md\:text-6xl {
