@@ -559,12 +559,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
 .mt-32 {
   margin-top: 8rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .mr-10 {
@@ -664,25 +664,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .animate-bounce {
   -webkit-animation: bounce 1s infinite;
           animation: bounce 1s infinite;
-}
-
-@-webkit-keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping {
-  -webkit-animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-          animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
 
 @-webkit-keyframes pulse {
@@ -888,14 +869,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(3 126 126 / var(--tw-text-opacity));
 }
 
-.text-primary {
-  --tw-text-opacity: 1;
-  color: rgb(255 238 225 / var(--tw-text-opacity));
-}
-
 .text-accent {
   --tw-text-opacity: 1;
   color: rgb(192 39 76 / var(--tw-text-opacity));
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(255 238 225 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -914,20 +895,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-delay: 150ms;
 }
 
-.duration-1000 {
-  transition-duration: 1000ms;
-}
-
 .duration-300 {
   transition-duration: 300ms;
-}
-
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
-}
-
-.ease-in-out {
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-paragraph {
@@ -1015,22 +984,9 @@ html, body {
   border-color: '#037E7E'
 }
 
-.hover\:px-6:hover {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .hover\:text-accent:hover {
   --tw-text-opacity: 1;
   color: rgb(192 39 76 / var(--tw-text-opacity));
-}
-
-.hover\:transition:hover {
-  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .active\:text-selected-text:active {
