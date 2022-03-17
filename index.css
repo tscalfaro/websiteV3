@@ -87,7 +87,7 @@ scroll-margin-top: 100px;
   }
   
   .section-paragraph {
-    @apply text-primary my-6 w-full  text-center;
+    @apply text-primary  text-lg my-6 w-full font-bold text-center;
   }
 
   .selected-circle {

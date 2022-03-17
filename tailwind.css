@@ -563,6 +563,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 4rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .mr-10 {
   margin-right: 2.5rem;
 }
@@ -839,6 +843,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1.5rem;
   width: 100%;
   text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(255 238 225 / var(--tw-text-opacity));
 }
@@ -916,6 +923,11 @@ html, body {
   border-color: '#037E7E'
 }
 
+.hover\:text-accent:hover {
+  --tw-text-opacity: 1;
+  color: rgb(192 39 76 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:mr-10 {
     margin-right: 2.5rem;
@@ -964,6 +976,11 @@ html, body {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1011,6 +1028,11 @@ html, body {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
