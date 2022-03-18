@@ -11,11 +11,19 @@
     "type": "git",
     "url": "git+https://github.com/tscalfaro/websiteV3.git"
   },
-  "keywords": ["Software Developer", "PA", "Software Engineer", "Warminster"],
+  "keywords": [
+    "Software Developer",
+    "PA",
+    "Software Engineer",
+    "Warminster"
+  ],
   "author": "Antonio Scalfaro",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tscalfaro/websiteV3/issues"
   },
-  "homepage": "https://github.com/tscalfaro/websiteV3#readme"
+  "homepage": "https://github.com/tscalfaro/websiteV3#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
