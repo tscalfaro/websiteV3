@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/tscalfaro/websiteV3#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "tailwindcss": "^3.0.23"
   }
 }
