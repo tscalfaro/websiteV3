@@ -8,8 +8,22 @@ function updateList() {
     document.querySelectorAll(".nav-dot")[[...document.querySelectorAll('h1, h2')].indexOf(titles[0])].classList.add("selected-circle")
 }
 
+function openBurgerMenu() {
+    const menu = document.querySelector('.burger_menu_list')
+    const icon = document.querySelector('.burger_icon')
+    if(menu.classList.contains("hidden")){ 
+        icon.classList.add("hidden")
+        menu.classList.remove("hidden")
+    } else {
+        menu.classList.add("hidden")
+        icon.classList.remove("hidden")
+    }
+}
+
 updateList();
 window.addEventListener('scroll', () => {
     updateList();
-    console.log("updating")
+})
+window.addEventListener('click', () => {
+    openBurgerMenu();
 })
