@@ -32,7 +32,7 @@
 }
 
 #project_section {
-  justify-content: center;
+  justify-self: auto;
 }
 /*
 1. Use a consistent sensible line-height in all browsers.
