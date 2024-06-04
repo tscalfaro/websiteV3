@@ -26,8 +26,14 @@
 }
 
 #project_section img {
+  display: flex;
+  margin: auto;
   height: 20em;
   width: 15em;
+}
+
+#project_section {
+  justify-content: center;
 }
 
 /*
