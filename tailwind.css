@@ -24,7 +24,6 @@
 ::after {
   --tw-content: '';
 }
-
 #project_section img {
   display: flex;
   margin: auto;
@@ -35,7 +34,6 @@
 #project_section {
   justify-content: center;
 }
-
 /*
 1. Use a consistent sensible line-height in all browsers.
 2. Prevent adjustments of font size after orientation changes in iOS.
